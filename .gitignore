@@ -21,3 +21,55 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+/target/
+###############
+#  fixed file #
+###############
+.gitignore
+*.zip
+*.rar
+*.via
+*.tmp
+*.err
+*.idea
+*.iml
+*.setting
+*.project
+
+###############
+#  temp file  #
+###############
+~*
+*.log
+*.cmm
+*.men
+*.ini
+*.fig
+*.cmp
+*.svn
+*.svn/
+*.target/
+*.settings/
+log.txt.*
+log.txt
+*.classpath
+/classes/*
+/.settings/*
+.idea/
+bee.iml
+target/
+*.jtl
+autoTemplate/
+
+
+###############
+#    script   #
+###############
+*.bat
+/bin/
+result1509070258117.jtl
+result1509070281773.jtl
+result1509070358774.jtl
+src/main/java/com/ziroom/testcase/autoTemplate/
+/test-output/
