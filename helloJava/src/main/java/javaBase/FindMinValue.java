@@ -8,8 +8,7 @@ public class FindMinValue {
     /**
      * 找出数组中的最小值
      * */
-    public static int minValue(){
-        int[] num = {8,4,2,1,3};
+    public static int minValue(int[] num){
         int min = num[0];
         for (int i = 0;i < num.length - 1;i ++){
             if (min > num[i + 1]){
@@ -20,7 +19,8 @@ public class FindMinValue {
     }
 
     public static void main(String[] args){
-        int x = minValue();
+        int[] num = {8,4,2,1,3};
+        int x = minValue(num);
         System.out.println("最小值为：" + x);
     }
 
