@@ -32,6 +32,7 @@ public class PostApiTest {
         restClient = new RestClient();
         HashMap<String,String> headermap = new HashMap<String, String>();
         headermap.put("Content-Type", "application/json");
+        System.out.println("+++++++");
 //        Users users = new Users("zhangwei","tester");
         HashMap<String,String> bodymap = new HashMap<String, String>();
         bodymap.put("name","morpheus");
