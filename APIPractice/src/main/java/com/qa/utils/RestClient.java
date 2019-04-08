@@ -29,6 +29,7 @@ public class RestClient {
         CloseableHttpResponse httpResponse = httpClient.execute(httpGet);
         return httpResponse;
     }
+
     /**
      * Get请求方法（带请求头信息）
      * */
